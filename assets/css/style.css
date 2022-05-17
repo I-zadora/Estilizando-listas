@@ -1,0 +1,57 @@
+@font-face {
+  font-family: alexbrush;
+  src: url('alexbrush-regular-webfont.woff2');
+  font-weight:600;
+}
+#first{
+    background-color:#ddd;
+    border: 2px dotted black;
+    font-family: 'alexbrush';
+    font-weight: 600;
+}
+
+#second{
+    background-color:#ddd;
+    border: 2px dotted black;
+    font-family: 'Elsie', cursive;
+}
+ul .a {
+    list-style-type:circle;
+}
+ ul .b{
+    list-style-type: disc;
+}
+ ul .c{
+    list-style-type: square;
+}
+ ul .d{
+    list-style-type: none;
+}
+/*Link não visitado */
+a:link {
+    color: green;
+    text-decoration: none;
+  }
+  
+  /*Link já visitado*/
+  a:visited {
+    color: blue;
+    text-decoration:line-through;
+  }
+  
+  /*Quando o mouse passa por cima*/
+  a:hover {
+    color: red;
+    text-decoration: none;
+  }
+  
+  /*Link ativo/selecionado*/
+  a:active {
+    color: yellow;
+    text-decoration: none;
+  }
+  /*Quando o elemento recebe foco*/
+  a:focus{
+      color: blueviolet;
+      text-decoration:underline;
+  }
